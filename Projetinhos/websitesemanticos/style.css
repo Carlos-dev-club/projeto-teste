@@ -1,0 +1,84 @@
+/* Header */
+header {
+    background-color: #008CBA; /* Azul */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #008CBA; /* Azul */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Main */
+  main {
+    background-color: #f1f1f1; /* Cinza claro */
+    padding: 20px;
+  }
+  
+  /* Article */
+  article {
+    background-color: #f1f1f1; /* Cinza claro */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Section */
+  section {
+    background-color: #f1f1f1; /* Cinza claro */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Aside */
+  aside {
+    background-color: #f1f1f1; /* Cinza claro */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #008CBA; /* Azul */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo para os elementos de conteúdo */
+  h1, h2, h3, p {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 14px;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
+  /* Estilo para os botões */
+  button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}

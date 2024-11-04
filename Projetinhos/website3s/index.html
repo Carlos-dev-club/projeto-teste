@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços de TI</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" id="menuToggle">
+            &#9776; <!-- Ícone do menu hambúrguer -->
+        </div>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Empresa de TI</h1>
+    </header>
+
+    <section id="servicos">
+        <h2>Descrição dos Serviços</h2>
+        <ul>
+            <li>
+                <h3>Desenvolvimento de Software</h3>
+                <p>Desenvolvemos soluções personalizadas para atender às suas necessidades específicas.</p>
+            </li>
+            <li>
+                <h3>Consultoria em TI</h3>
+                <p>Oferecemos consultoria especializada para otimizar seus processos e tecnologias.</p>
+            </li>
+            <li>
+                <h3>Suporte Técnico</h3>
+                <p>Nosso suporte técnico está disponível 24/7 para resolver quaisquer problemas que você tenha.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="precos">
+        <h2>Preços</h2>
+        <ul>
+            <li>Desenvolvimento de Software: R$ 5.000,00</li>
+            <li>Consultoria em TI: R$ 200,00/hora</li>
+            <li>Suporte Técnico: R$ 150,00/mês</li>
+        </ul>
+    </section>
+
+    <section id="depoimentos">
+        <h2>Depoimentos</h2>
+        <blockquote>
+            <p>"A Empresa de TI transformou nosso negócio! O suporte é excepcional." - Cliente Satisfeito</p>
+        </blockquote>
+        <blockquote>
+            <p>"Os serviços de consultoria foram fundamentais para o crescimento da nossa empresa." - Outro Cliente</p>
+        </blockquote>
+    </section>
+
+    <footer>
+        <h2>Contato</h2>
+        <p>Entre em contato conosco: <a href="mailto:contato@empresa.com">contato@empresa.com</a></p>
+        <p>&copy; 2023 Empresa de TI. Todos os direitos reservados.</p>
+        <a href="#top" class="back-to-top">&#8593; Voltar ao topo</a>
+    </footer>
+
+    <script>
+        // Script para mostrar/ocultar o menu hambúrguer
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

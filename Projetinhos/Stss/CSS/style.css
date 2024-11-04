@@ -1,0 +1,213 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*
+CSS = folha de estilo em cascata ( de cima para baixo)
+
+RGB = RED, GREE E BLUE
+EXADECIMAL = 1,2,3,4,5,67,8,9,A,B,C,D,E,F,
+COLOR.ADOBE.COM.BR
+W3SCHOOL
+COOLORS
+COLORZILLA
+
+
+* {
+   padroniza todo o site 
+}
+
+*/
+
+/*
+
+h1 {
+    color: red;
+    background: green;
+}
+
+p {
+    color: orange;
+    font-size: 25px;
+}
+
+button {
+    background: blue;
+    border-color: yellow;
+}
+
+*/
+
+/* exemple de id */
+
+/*
+
+#titulo {
+    color: red;
+    font-size: 55px;
+}
+
+#paragrafo {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#botao {
+    background: green;
+
+}
+
+#outro-botao {
+    background: chocolate;
+}
+
+*/
+
+/* exemplo de class */
+
+/*
+.titulo {
+    color: red;
+    font-size: 55px;
+}
+
+.paragrafo {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.botao {
+    background: green;
+
+}
+
+.outro-botao {
+    background: chocolate;
+}
+
+*/
+
+/*
+UNIDADES DE MEDIDAS
+-> ABSOLUTAS
+   pix - (pixels) 1/100ct de polegada
+   in - (inches/polegadas)
+   cm - (centimetro/milimetro)
+
+-> RELATIVAS
+   %  - calcula o tamanho relativo ao elemento pai()
+   vw - (view width) 1vw e 1% da largura da janela do navegador
+   vh - (view height) 1vh e 1% da altura da janela do navegador
+   em - é uma unidade relativa ao elemento pai
+   rem - é uma unidade relativa ao elemento raiz pai
+*/
+
+/*
+.vo {
+    font-size: 16px;
+}
+
+.pai {
+width: 50vw;
+height: 50vh;
+background: blue;
+color: #ffffff;
+font-size: 2em;
+}
+
+.filho {
+    width: 50%;
+    height: 50%;
+    background: red;
+    color: #ffffff;
+font-size: 0.5em;
+}
+
+*/
+
+/* TEXTOS NO CSS */
+/*
+
+
+h1 {
+   color: red; 
+   font-size: 64px;
+   font-weight: 800;
+   font-family: "Roboto", serif;
+   font-style: italic;
+   text-shadow: 10px 10px 10px #ff0000;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+*/
+
+/* Padding e Margin 
+
+Padding de dentro pra fora.
+Margim espaçamento externo
+
+*/
+
+
+/*
+.box {
+    width: 50px;
+    height: 50px;
+    background: green;
+   margin-top: 20px;
+   margin-bottom: 30;
+   margin-right: 10;
+   margin-left: 5px;
+
+   margin: 10px 20px 30px 5px;
+}  
+
+*/
+
+/* macete do relogio
+margin: 10px 20px 30px 5px
+        12h  15h  18h  21h
+
+*/
+
+/*
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background: rgba(131, 17, 2, 0.585);
+    margin: 50px;
+    padding: 50px;
+}
+
+*/
+
+/*  
+** BOX SIZING
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: green;
+    padding: 20px;
+    border: 10px solid yellow;
+}  

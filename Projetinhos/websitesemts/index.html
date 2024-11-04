@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Variedades</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Variedades</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produto">
+                <img src="produto1.jpg" alt="Produto 1">
+                <h3>Produto 1</h3>
+                <p>Descrição do Produto 1.</p>
+                <p>Preço: R$ 29,90</p>
+            </div>
+            <div class="produto">
+                <img src="produto2.jpg" alt="Produto 2">
+                <h3>Produto 2</h3>
+                <p>Descrição do Produto 2.</p>
+                <p>Preço: R$ 49,90</p>
+            </div>
+            <div class="produto">
+                <img src="produto3.jpg" alt="Produto 3">
+                <h3>Produto 3</h3>
+                <p>Descrição do Produto 3.</p>
+                <p>Preço: R$ 19,90</p>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo à nossa loja de variedades! Oferecemos uma ampla gama de produtos para atender todas as suas necessidades.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Loja de Variedades. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
